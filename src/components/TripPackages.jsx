@@ -71,7 +71,7 @@ function TripPackages() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
           <div className="space-y-4">
-            <h2 className="text-4xl md:text-6xl font-black text-white tracking-tighter leading-none uppercase">
+            <h2 className="text-3xl md:text-6xl font-black text-white tracking-tighter leading-none uppercase">
               OUR POPULAR <br />
               <span className="text-red-500">PACKAGES</span>
             </h2>

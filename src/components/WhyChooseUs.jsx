@@ -54,7 +54,7 @@ function WhyChooseUs() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-24 gap-8">
           <div className="space-y-4 max-w-2xl">
-            <h2 className="text-5xl md:text-7xl font-black text-white tracking-tighter leading-none">
+            <h2 className="text-4xl md:text-7xl font-black text-white tracking-tighter leading-none">
               WHY CHOOSE <br />
               <span className="text-red-600">VAIYARI?</span>
             </h2>

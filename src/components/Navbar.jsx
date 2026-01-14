@@ -23,32 +23,32 @@ function Navbar() {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-300 px-8 py-4 ${
+      <nav className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-300 px-4 md:px-8 py-4 ${
         isScrolled 
           ? 'bg-black/80 backdrop-blur-lg border-b border-white/10 shadow-lg' 
           : 'bg-transparent'
       }`}>
         <div className="max-w-7xl mx-auto flex justify-between items-center w-full">
           <div className="navbar-logo">
-            <Link to="/" className="no-underline flex items-center gap-3">
+            <Link to="/" className="no-underline flex items-center gap-2 md:gap-3">
               <div className="relative">
                 <img 
                   src="/Vaiyari Icon Logo.jpg" 
                   alt="Vaiyari Logo" 
-                  className="h-10 w-10 object-contain rounded-full border-2 border-red-500 shadow-[0_0_15px_rgba(239,68,68,0.3)]" 
+                  className="h-8 w-8 md:h-10 md:w-10 object-contain rounded-full border-2 border-red-500 shadow-[0_0_15px_rgba(239,68,68,0.3)]" 
                 />
                 <div className="absolute inset-0 rounded-full bg-red-500/20 animate-pulse"></div>
               </div>
-              <h1 className="m-0 text-2xl text-white font-black tracking-tighter">
+              <h1 className="m-0 text-xl md:text-2xl text-white font-black tracking-tighter">
                 VAIYARI<span className="text-red-500">.</span>
               </h1>
             </Link>
           </div>
          
-          <div className="navbar-toggle flex items-center gap-6">
+          <div className="navbar-toggle flex items-center gap-4 md:gap-6">
             <button 
               onClick={() => setIsModalOpen(true)}
-              className="group relative px-6 py-2 bg-red-600 text-white rounded-full font-bold transition-all hover:bg-red-700 active:scale-95 shadow-[0_0_15px_rgba(225,29,72,0.3)]"
+              className="group relative px-4 md:px-6 py-2 bg-red-600 text-white rounded-full text-sm md:text-base font-bold transition-all hover:bg-red-700 active:scale-95 shadow-[0_0_15px_rgba(225,29,72,0.3)]"
             >
               <span className="relative z-10">Book Now</span>
             </button>

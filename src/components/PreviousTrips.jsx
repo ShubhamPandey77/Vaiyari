@@ -28,7 +28,7 @@ function PreviousTrips() {
     <section className="py-32 bg-[#0a0a0a] px-6">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24 space-y-4">
-          <h2 className="text-4xl md:text-6xl font-black text-white tracking-tighter">
+          <h2 className="text-3xl md:text-6xl font-black text-white tracking-tighter">
             OUR PREVIOUS <span className="text-red-500">ADVENTURES</span>
           </h2>
           <p className="text-xl text-gray-400 font-light max-w-2xl mx-auto">

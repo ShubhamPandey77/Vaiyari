@@ -46,13 +46,13 @@ function Hero() {
       <div className="relative z-10 w-full max-w-5xl px-6">
         <div className="flex flex-col items-center text-center space-y-8">
           <div className="space-y-4 animate-in fade-in slide-in-from-bottom-8 duration-1000">
-            <h1 className="text-6xl md:text-8xl font-black tracking-tighter text-white drop-shadow-2xl leading-none">
+            <h1 className="text-5xl sm:text-7xl md:text-8xl font-black tracking-tighter text-white drop-shadow-2xl leading-none">
               EXPERIENCE <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-400">
                 THE EXTRAORDINARY
               </span>
             </h1>
-            <p className="text-lg md:text-2xl text-gray-100 max-w-2xl mx-auto font-light tracking-wide drop-shadow-md">
+            <p className="text-base md:text-2xl text-gray-100 max-w-2xl mx-auto font-light tracking-wide drop-shadow-md">
               Don’t find holidays to travel
             </p>
           </div>
