@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react'
 import Hero from '../components/Hero'
-import TripPackages from '../components/TripPackages'
-import PreviousTrips from '../components/PreviousTrips'
-import WhyChooseUs from '../components/WhyChooseUs'
+
+const TripPackages = lazy(() => import('../components/TripPackages'))
+const PreviousTrips = lazy(() => import('../components/PreviousTrips'))
+const WhyChooseUs = lazy(() => import('../components/WhyChooseUs'))
+const CommentMarquee = lazy(() => import('../components/CommentMarquee'))
 
 function Home() {
   return (
     <main>
       <Hero />
-      <TripPackages />
-      <PreviousTrips />
-      <WhyChooseUs />
+      <Suspense fallback={<div className="h-96 flex items-center justify-center bg-[#0a0a0a] text-white">Loading...</div>}>
+        <TripPackages />
+        <PreviousTrips />
+        <WhyChooseUs />
+        <CommentMarquee />
+      </Suspense>
     </main>
   )
 }

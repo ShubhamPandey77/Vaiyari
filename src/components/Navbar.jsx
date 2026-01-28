@@ -14,13 +14,6 @@ function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToPackages = () => {
-    const element = document.getElementById('packages');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <>
       <nav className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-300 px-4 md:px-8 py-4 ${
@@ -39,12 +32,16 @@ function Navbar() {
                 />
                 <div className="absolute inset-0 rounded-full bg-red-500/20 animate-pulse"></div>
               </div>
-              <h1 className="m-0 text-xl md:text-2xl text-white font-black tracking-tighter">
-                VAIYARI<span className="text-red-500">.</span>
-              </h1>
+              <div className="flex flex-col">
+                <h1 className="m-0 text-xl md:text-2xl text-white font-black tracking-tighter">
+                  VAIYARI 
+                </h1>   
+                <span className="text-[8px] md:text-[10px] text-white font-bold tracking-widest uppercase mt-1 leading-none">
+                  Don't find holidays to travel
+                </span>
+              </div>
             </Link>
           </div>
-         
           <div className="navbar-toggle flex items-center gap-4 md:gap-6">
             <button 
               onClick={() => setIsModalOpen(true)}

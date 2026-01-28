@@ -7,30 +7,30 @@ function TripPackages() {
       id: 1,
       title: 'Udaipur Heritage',
       location: 'Rajasthan, India',
-      image: 'https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?q=80&w=1000&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1615836245337-f5b9b2303f10?q=80&w=600&auto=format&fit=crop',
       duration: '4 Days'
     },
     {
       id: 2,
       title: 'Manali Heights',
       location: 'Himachal Pradesh, India',
-      image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=1000&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?q=80&w=600&auto=format&fit=crop',
       duration: '5 Days',
       itinerary: '/itinarary/Vaiyari Travels Manali Itinerary.pdf'
     },
     {
       id: 3,
-      title: 'Kasol Riverside',
-      location: 'Himachal Pradesh, India',
-      image: 'https://images.unsplash.com/photo-1605146768851-eda79da39897?q=80&w=1000&auto=format&fit=crop',
-      duration: '3 Days',
-      itinerary: '/itinarary/Kasol Itinerary.pdf'
+      title: 'Goa Beach Vibes',
+      location: 'Goa, India',
+      image: 'https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?q=80&w=600&auto=format&fit=crop',
+      duration: '4 Days',
+      itinerary: '/itinarary/Goa Itinerary.pdf'
     },
     {
       id: 4,
       title: 'Nainital Lakes',
       location: 'Uttarakhand, India',
-      image: 'https://images.unsplash.com/photo-1581791534721-e599df4417f7?q=80&w=1000&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581791534721-e599df4417f7?q=80&w=600&auto=format&fit=crop',
       duration: '4 Days'
     }
   ]
@@ -40,28 +40,28 @@ function TripPackages() {
       id: 5,
       title: 'European Grandeur',
       location: 'Western Europe',
-      image: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=1000&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=600&auto=format&fit=crop',
       duration: '12 Days'
     },
     {
       id: 6,
       title: 'Dubai Skyline',
       location: 'UAE',
-      image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1000&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=600&auto=format&fit=crop',
       duration: '6 Days'
     },
     {
       id: 7,
       title: 'African Safari',
       location: 'Kenya/Tanzania',
-      image: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1000&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=600&auto=format&fit=crop',
       duration: '9 Days'
     },
     {
       id: 8,
       title: 'USA Discovery',
       location: 'United States',
-      image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=1000&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=600&auto=format&fit=crop',
       duration: '14 Days'
     }
   ]

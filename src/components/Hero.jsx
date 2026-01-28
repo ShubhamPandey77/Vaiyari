@@ -31,15 +31,24 @@ function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Dynamic Background with Overlay */}
-      {heroImages.map((img, index) => (
-        <div
-          key={img}
-          className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
-            index === currentImageIndex ? 'opacity-100' : 'opacity-0'
-          }`}
-          style={{ backgroundImage: `url('${img}')` }}
-        />
-      ))}
+      {heroImages.map((img, index) => {
+        // Only render current, next, and previous for smooth transition while saving bandwidth
+        const isNext = index === (currentImageIndex + 1) % heroImages.length;
+        const isPrev = index === (currentImageIndex - 1 + heroImages.length) % heroImages.length;
+        const isCurrent = index === currentImageIndex;
+        
+        if (!isCurrent && !isNext && !isPrev) return null;
+
+        return (
+          <div
+            key={img}
+            className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out ${
+              isCurrent ? 'opacity-100' : 'opacity-0'
+            }`}
+            style={{ backgroundImage: `url('${img}')` }}
+          />
+        );
+      })}
       <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]"></div>
 
       {/* Content */}
