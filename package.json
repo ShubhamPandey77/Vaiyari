@@ -1,5 +1,6 @@
 {
-  "name": "Vaiyar Travels",
+  "name": "vaiyari-travels",
+  "description": "Vaiyari Travels - Explore curated travel experiences and customized itineraries.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
