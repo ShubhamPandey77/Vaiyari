@@ -33,9 +33,9 @@ function Navbar() {
                 <div className="absolute inset-0 rounded-full bg-red-500/20 animate-pulse"></div>
               </div>
               <div className="flex flex-col">
-                <h1 className="m-0 text-xl md:text-2xl text-white font-black tracking-tighter">
+                <span className="m-0 text-xl md:text-2xl text-white font-black tracking-tighter">
                   VAIYARI 
-                </h1>   
+                </span>   
                 <span className="text-[8px] md:text-[10px] text-white font-bold tracking-widest uppercase mt-1 leading-none">
                   Don't find holidays to travel
                 </span>
