@@ -67,28 +67,28 @@ function TripPackages() {
   ]
 
   return (
-    <section id="packages" className="py-32 bg-[#0a0a0a] px-6">
+    <section id="packages" className="py-16 bg-[#0a0a0a] px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-8">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-8">
           <div className="space-y-4">
-            <h2 className="text-3xl md:text-6xl font-black text-white tracking-tighter leading-none uppercase">
+            <h2 className="text-3xl md:text-5xl font-black text-white tracking-tighter leading-none uppercase">
               OUR POPULAR <br />
               <span className="text-red-500">PACKAGES</span>
             </h2>
             <div className="w-20 h-2 bg-red-600 rounded-full"></div>
           </div>
-          <p className="text-xl text-gray-400 max-w-md font-light">
+          <p className="text-lg text-gray-400 max-w-md font-light">
             Hand-picked group trips designed for explorers who crave authentic experiences.
           </p>
         </div>
 
         {/* Domestic Section */}
-        <div className="mb-24">
-          <div className="flex items-center gap-4 mb-12">
-            <h3 className="text-3xl font-black text-white uppercase tracking-widest">Domestic</h3>
+        <div className="mb-12">
+          <div className="flex items-center gap-4 mb-6">
+            <h3 className="text-2xl font-black text-white uppercase tracking-widest">Domestic</h3>
             <div className="flex-1 h-px bg-white/10"></div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {domesticPackages.map((pkg) => (
               <TripCard key={pkg.id} {...pkg} />
             ))}
@@ -97,11 +97,11 @@ function TripPackages() {
 
         {/* International Section */}
         <div>
-          <div className="flex items-center gap-4 mb-12">
-            <h3 className="text-3xl font-black text-white uppercase tracking-widest">International</h3>
+          <div className="flex items-center gap-4 mb-6">
+            <h3 className="text-2xl font-black text-white uppercase tracking-widest">International</h3>
             <div className="flex-1 h-px bg-white/10"></div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {internationalPackages.map((pkg) => (
               <TripCard key={pkg.id} {...pkg} />
             ))}
