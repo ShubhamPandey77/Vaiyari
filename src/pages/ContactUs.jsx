@@ -44,6 +44,16 @@ const ContactUs = () => {
                 </div>
               </div>
             </div>
+
+            <div className="pt-8 space-y-4">
+              <p className="text-gray-400 font-light italic">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+              </p>
+              <p className="text-gray-400 font-light">
+                Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. 
+                Donec rutrum congue leo eget malesuada.
+              </p>
+            </div>
           </div>
 
           <div className="bg-white/5 border border-white/10 p-8 rounded-3xl">

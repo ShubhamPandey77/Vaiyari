@@ -59,6 +59,16 @@ const TermsConditions = () => {
             </p>
           </section>
 
+          <section>
+            <h2 className="text-2xl font-bold text-white mb-4 tracking-tight">7. Miscellaneous</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at varius sapien. 
+              Donec elementum efficitur nisi, at gravida tellus. Quisque sed leo sit amet eros iaculis porta. 
+              Vivamus elementum elit ac nibh luctus, non hendrerit magna vehicula. 
+              Integer sit amet vulputate tellus, quis eleifend tellus.
+            </p>
+          </section>
+
           <section className="pt-8 border-t border-white/10">
             <p className="text-sm">Last updated: February 2025</p>
           </section>
