@@ -2,9 +2,9 @@ import React from 'react'
 
 const ContactUs = () => {
   return (
-    <div className="bg-black text-white min-h-screen pt-24 pb-12 px-8">
+    <div className="bg-black text-white min-h-screen pt-24 pb-12 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-5xl font-black mb-8 tracking-tighter">CONTACT <span className="text-red-500">US</span></h1>
+        <h1 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter">CONTACT <span className="text-red-500">US</span></h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
           <div className="space-y-8">

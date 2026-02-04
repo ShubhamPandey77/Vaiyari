@@ -2,9 +2,9 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className="bg-black text-white min-h-screen pt-24 pb-12 px-8">
+    <div className="bg-black text-white min-h-screen pt-24 pb-12 px-4 md:px-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl font-black mb-8 tracking-tighter">ABOUT <span className="text-red-500">US</span></h1>
+        <h1 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter">ABOUT <span className="text-red-500">US</span></h1>
         
         <div className="space-y-6 text-gray-300 leading-relaxed text-lg font-light">
           We are a travel community built for people who love exploring the mountains, meeting new people, and creating stories that last a lifetime. Every Friday, we organize curated trips across the North India circuit — from peaceful hill stations to adventurous getaways. Over the years, more than 5,000+ travellers have trusted us to plan their journeys, and that trust is what drives us every day.

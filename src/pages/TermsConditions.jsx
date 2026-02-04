@@ -2,9 +2,9 @@ import React from 'react'
 
 const TermsConditions = () => {
   return (
-    <div className="bg-black text-white min-h-screen pt-24 pb-12 px-8">
+    <div className="bg-black text-white min-h-screen pt-24 pb-12 px-4 md:px-8">
       <div className="max-w-4xl mx-auto font-light leading-relaxed">
-        <h1 className="text-5xl font-black mb-8 tracking-tighter uppercase">Terms & <span className="text-red-500">Conditions</span></h1>
+        <h1 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter uppercase">Terms & <span className="text-red-500">Conditions</span></h1>
         
         <div className="space-y-8 text-gray-300">
           All participants must clear the full trip cost and any pending dues before

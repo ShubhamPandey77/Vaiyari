@@ -2,9 +2,9 @@ import React from 'react'
 
 const PrivacyPolicy = () => {
   return (
-    <div className="bg-black text-white min-h-screen pt-24 pb-12 px-8">
+    <div className="bg-black text-white min-h-screen pt-24 pb-12 px-4 md:px-8">
       <div className="max-w-4xl mx-auto font-light leading-relaxed">
-        <h1 className="text-5xl font-black mb-8 tracking-tighter">PRIVACY <span className="text-red-500">POLICY</span></h1>
+        <h1 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter">PRIVACY <span className="text-red-500">POLICY</span></h1>
         
         <div className="space-y-8 text-gray-300">
           We respect your privacy and are committed to protecting your personal information. When you book a trip or contact us, we may collect basic details such as your name, phone number, email address, ID proof, and travel preferences. This information is used strictly for booking management, communication, safety requirements, and improving your overall travel experience.
