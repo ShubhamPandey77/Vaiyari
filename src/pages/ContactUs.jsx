@@ -47,11 +47,9 @@ const ContactUs = () => {
 
             <div className="pt-8 space-y-4">
               <p className="text-gray-400 font-light italic">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
-              </p>
-              <p className="text-gray-400 font-light">
-                Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur aliquet quam id dui posuere blandit. 
-                Donec rutrum congue leo eget malesuada.
+               Have questions about a trip, bookings, or custom plans? We’re here to help. Whether you’re travelling solo, with friends, or planning a group getaway, our team will guide you with the right information and support to make your journey hassle-free. Feel free to reach out anytime — we love talking travel.
+
+You can contact us through phone, WhatsApp, or email for quick assistance. We aim to respond to all queries as soon as possible and ensure complete clarity before you book. From itinerary details to stay options and pricing, we’re happy to walk you through everything.
               </p>
             </div>
           </div>

@@ -7,67 +7,44 @@ const TermsConditions = () => {
         <h1 className="text-5xl font-black mb-8 tracking-tighter uppercase">Terms & <span className="text-red-500">Conditions</span></h1>
         
         <div className="space-y-8 text-gray-300">
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 tracking-tight">1. Booking and Payments</h2>
-            <p>
-              By booking a trip with Vaiyari, you agree to pay the specified amount for the selected package. 
-              Bookings are confirmed only upon receipt of the initial deposit or full payment as specified.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 tracking-tight">2. Cancellation and Refunds</h2>
-            <p>
-              Cancellation policies vary by trip and are specified at the time of booking. Generally:
-            </p>
-            <ul className="list-disc list-inside mt-2 space-y-2 ml-4">
-              <li>Cancellations made 30+ days before departure: Partial refund (minus non-refundable deposits).</li>
-              <li>Cancellations made within 30 days: Non-refundable.</li>
-              <li>No-shows are not eligible for refunds.</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 tracking-tight">3. Traveler Responsibility</h2>
-            <p>
-              Travelers are responsible for ensuring they have valid travel documents (passports, visas, etc.) 
-              and are physically fit for the activities included in the itinerary.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 tracking-tight">4. Liability</h2>
-            <p>
-              Vaiyari acts as an organizer and facilitator. We are not liable for personal injury, property damage, 
-              or loss caused by third-party service providers or unforeseen circumstances beyond our control.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 tracking-tight">5. Itinerary Changes</h2>
-            <p>
-              While we strive to adhere to the planned itinerary, Vaiyari reserves the right to make changes 
-              due to weather conditions, safety concerns, or other logistics beyond our control.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 tracking-tight">6. Code of Conduct</h2>
-            <p>
-              We promote a respectful and inclusive environment. Vaiyari reserves the right to remove any 
-              participant whose behavior is disruptive or harmful to others without a refund.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-white mb-4 tracking-tight">7. Miscellaneous</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at varius sapien. 
-              Donec elementum efficitur nisi, at gravida tellus. Quisque sed leo sit amet eros iaculis porta. 
-              Vivamus elementum elit ac nibh luctus, non hendrerit magna vehicula. 
-              Integer sit amet vulputate tellus, quis eleifend tellus.
-            </p>
-          </section>
+          All participants must clear the full trip cost and any pending dues before
+departure. Failure to do so will result in cancellation without any refund.
+A booking will be considered confirmed only after submission of the consent/
+application form along with the required registration amount.
+A valid government-issued photo ID (Aadhaar Card, Driving Licence, or Voter ID) is
+mandatory for Indian participants. International participants must carry a valid
+passport.
+Participants below 18 years of age must submit a signed No Objection Certificate
+(NOC) from a parent or legal guardian.
+The itinerary includes high-altitude and weather-sensitive destinations and may
+be modified, delayed, or rearranged in the interest of safety.
+Accommodation will be provided based on room size, availability, and sharing
+basis. Air-conditioned rooms are not included due to the hilly regions covered.
+AC packages include AC train travel only (to and from). Hotels and road transfers
+will be non-AC unless specifically mentioned.
+Early check-in, late check-out, room heaters, and other hotel amenities are subject
+to hotel policies and availability.
+Train tickets are non-transferable. Participants must carry valid ID matching the
+ticket details at all times during travel.
+Travel insurance is not included in the package. Participants are strongly advised
+to arrange personal travel insurance.
+Participants must disclose any pre-existing medical conditions, allergies, or special
+requirements prior to departure.
+The company reserves the right to refuse or discontinue participation of any
+individual due to medical, safety, or behavioral concerns.
+Participants are expected to follow the instructions of the trip leader, organizers,
+and local staff at all times.
+Any form of misbehavior, misconduct, indiscipline, or use of illegal substances will
+lead to immediate removal from the trip without refund.
+No refund will be provided for any unused services, missed activities, meals, or
+sightseeing due to personal reasons or late arrival.
+Any additional expenses arising due to personal reasons, medical emergencies, or
+itinerary deviation will be borne by the participant.
+The company shall not be responsible for delays, route changes, or cancellations
+caused by traffic, weather, strikes, or unforeseen circumstances.
+Any accident, injury, illness, or mishap during the trip is beyond the company’s
+responsibility, and participants travel at their own risk.
+The safety and security of luggage and personal belongings are the participant’s.
 
           <section className="pt-8 border-t border-white/10">
             <p className="text-sm">Last updated: February 2025</p>
