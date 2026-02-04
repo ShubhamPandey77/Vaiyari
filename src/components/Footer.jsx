@@ -37,28 +37,48 @@ function Footer() {
         <div className="footer-section">
           <h4 className="text-white text-xl font-bold mb-10 tracking-tight">Quick Links</h4>
           <ul className="space-y-4">
-            {['Home', 'OUR POPULAR PACKAGES', 'OUR PREVIOUS ADVENTURES', 'About Us'].map((link) => (
-              <li key={link}>
-                <Link to="/" className="text-gray-400 hover:text-red-500 transition-colors font-light flex items-center gap-2 group">
-                  <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 transition-all"></span>
-                  {link}
-                </Link>
-              </li>
-            ))}
+            <li>
+              <Link to="/" className="text-gray-400 hover:text-red-500 transition-colors font-light flex items-center gap-2 group">
+                <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 transition-all"></span>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="text-gray-400 hover:text-red-500 transition-colors font-light flex items-center gap-2 group">
+                <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 transition-all"></span>
+                About Us
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact" className="text-gray-400 hover:text-red-500 transition-colors font-light flex items-center gap-2 group">
+                <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 transition-all"></span>
+                Contact Us
+              </Link>
+            </li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4 className="text-white text-xl font-bold mb-10 tracking-tight">Support</h4>
           <ul className="space-y-4">
-            {['Contact Support', 'Terms of Service', 'Privacy Policy', 'FAQs'].map((link) => (
-              <li key={link}>
-                <a href="#" className="text-gray-400 hover:text-red-500 transition-colors font-light flex items-center gap-2 group">
-                  <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 transition-all"></span>
-                  {link}
-                </a>
-              </li>
-            ))}
+            <li>
+              <Link to="/contact" className="text-gray-400 hover:text-red-500 transition-colors font-light flex items-center gap-2 group">
+                <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 transition-all"></span>
+                Contact Support
+              </Link>
+            </li>
+            <li>
+              <Link to="/terms-conditions" className="text-gray-400 hover:text-red-500 transition-colors font-light flex items-center gap-2 group">
+                <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 transition-all"></span>
+                Terms of Service
+              </Link>
+            </li>
+            <li>
+              <Link to="/privacy-policy" className="text-gray-400 hover:text-red-500 transition-colors font-light flex items-center gap-2 group">
+                <span className="w-0 group-hover:w-2 h-[1px] bg-red-500 transition-all"></span>
+                Privacy Policy
+              </Link>
+            </li>
           </ul>
         </div>
 

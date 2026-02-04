@@ -43,6 +43,8 @@ function Navbar() {
             </Link>
           </div>
           <div className="navbar-toggle flex items-center gap-4 md:gap-6">
+            <Link to="/about" className="hidden md:block text-white hover:text-red-500 transition-colors font-medium">About Us</Link>
+            <Link to="/contact" className="hidden md:block text-white hover:text-red-500 transition-colors font-medium">Contact</Link>
             <button 
               onClick={() => setIsModalOpen(true)}
               className="group relative px-4 md:px-6 py-2 bg-red-600 text-white rounded-full text-sm md:text-base font-bold transition-all hover:bg-red-700 active:scale-95 shadow-[0_0_15px_rgba(225,29,72,0.3)]"
