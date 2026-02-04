@@ -43,6 +43,7 @@ function Navbar() {
             </Link>
           </div>
           <div className="navbar-toggle flex items-center gap-4 md:gap-6">
+             <Link to="/" className="hidden md:block text-white hover:text-red-500 transition-colors font-medium">Home</Link>
             <Link to="/about" className="hidden md:block text-white hover:text-red-500 transition-colors font-medium">About Us</Link>
             <Link to="/contact" className="hidden md:block text-white hover:text-red-500 transition-colors font-medium">Contact</Link>
             <button 
